@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-JD26"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-JD26');</script>
+  <!-- End Google Tag Manager -->
+
+    <title>Heroku | Sign up</title>
+      <meta name="description" content="Sign up for a free Heroku developer account and get started building your apps on Heroku.">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="8tBhlUhQ7pjL7sbBkO6REFYEm01l4nNfl5x7zHeCuaPLoubOYK7m/eHNissPi7meShxS7L+Mh8zcXb5oXXI6Cg==" />
+
+      <link href="https://signup.heroku.com" rel="canonical">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.herokucdn.com/favicon.ico" />
+
+
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    
+    <link rel="stylesheet" media="all" href="/assets/application-42aaa5435c4e8ed230ae71b18618c0d0c5f7e928ba1be5326577999bb6bc2ff0.css" />
+    <script src="/assets/application-d48406ffae6c6d22dfbe3e4e9f722c635151cc53449efe834b848906399782dd.js"></script>
+  </head>
+
+  <body>
+    <div id="heroku-cookie-banner" class="dark-mode"></div>
+
+    <div class='wrapper'>
+      
+<div class="signup-page signup-page-default">
+  <div class="header-main">
+    <a class="header-logo" href="https://www.heroku.com/home"></a>
+
+    <h2>Sign up for free and experience Heroku today</h2>
+
+    <div class="header-login">
+      <span>Already have an account?&nbsp;</span>
+      <a class="btn btn-sm btn-alt" href="https://id.heroku.com/login">Log in</a>
+    </div>
+  </div>
+  <div class="signup-content">
+    <div class="benefits page-body">
+      <h3><span class="icon hk-icon-sm hk-icon-user"></span> Free account</h3>
+      <p>Create apps, connect databases and add-on services, and collaborate on your apps, for free.</p>
+
+      <hr />
+
+      <h3><span class="icon hk-icon-sm hk-icon-app"></span> Your app platform</h3>
+      <p>A platform for apps, with app management &amp; instant scaling, for development and production.</p>
+
+      <hr />
+
+      <h3><span class="icon hk-icon-sm hk-icon-deploy"></span> Deploy now</h3>
+      <p>Go from code to running app in minutes. Deploy, scale, and deliver your app to the world.</p>
+    </div>
+
+    <div class="signup page-sidebar">
+      
+      <p id="fill-all-fields" class="alert alert-error" style="display:none"></p>
+      <form id="signup" class="gtm_signup_register_form" action="/account" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EaTceO//NjQKhC/0I0tiZ9adJhXeeNnKZsoM3YYVDmNoGCPBuNX55MwoKIYGltlO33Q+mGS1KHYMqfiS6+EDGg==" />
+  <input type="hidden" name="campaign_id" value="70130000001x9jFAAQ" />
+  <input type="hidden" name="slug" value="default" />
+
+
+  <div class="input-group">
+    <label for="first_name">
+      First name
+      <sup class="required" title="Required">*</sup>
+</label>    <input type="text" name="first_name" id="first_name" class="required" autocapitalize="off" tabindex="1" placeholder="First name" />
+  </div>
+
+    <div class="input-group">
+      <label for="last_name">
+        Last name
+        <sup class="required" title="Required">*</sup>
+</label>      <input type="text" name="last_name" id="last_name" class="required" autocapitalize="off" tabindex="2" placeholder="Last name" />
+    </div>
+
+  <div class="input-group">
+    <label for="email">
+      Email address
+      <sup class="required" title="Required">*</sup>
+</label>    <input type="email" name="email" id="email" class="required" autocapitalize="off" tabindex="3" placeholder="Email address" />
+  </div>
+
+  <div class="input-group">
+    <label for="company">
+      Company name
+</label>    <input type="text" name="company" id="company" autocapitalize="off" tabindex="4" placeholder="Company name" />
+  </div>
+
+  <div class="input-group">
+    <label for="role">
+      Role
+      <sup class="required" title="Required">*</sup>
+</label>    <div class="role-selector">
+      <select name="role" id="role" placeholder="Role" tabindex="5" class="required"><option value="">Role</option><option value="agency_partner_developer">Agency / Partner Developer</option>
+<option value="hobbyist">Hobbyist</option>
+<option value="professional_developer">Professional Developer</option>
+<option value="student">Student</option>
+<option value="technology_business_manager">Technology / Business Manager</option>
+<option value="other">Other</option></select>
+    </div>
+  </div>
+
+  <div class="input-group">
+  <div class="country-selector">
+    <label for="self_declared_country">
+      Country
+      <sup class="required" title="Required">*</sup>
+</label>    <select name="self_declared_country" id="self_declared_country" class="required" tabindex="5" placeholder="Country"><option value="">Country</option><option value="United States">United States</option>
+<option value="Afghanistan">Afghanistan</option>
+<option value="Aland Islands">Aland Islands</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="Andorra">Andorra</option>
+<option value="Angola">Angola</option>
+<option value="Anguilla">Anguilla</option>
+<option value="Antarctica">Antarctica</option>
+<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Aruba">Aruba</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahamas">Bahamas</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Barbados">Barbados</option>
+<option value="Belarus">Belarus</option>
+<option value="Belgium">Belgium</option>
+<option value="Belize">Belize</option>
+<option value="Benin">Benin</option>
+<option value="Bermuda">Bermuda</option>
+<option value="Bhutan">Bhutan</option>
+<option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option>
+<option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+<option value="Botswana">Botswana</option>
+<option value="Bouvet Island">Bouvet Island</option>
+<option value="Brazil">Brazil</option>
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+<option value="Brunei Darussalam">Brunei Darussalam</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burkina Faso">Burkina Faso</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Cameroon">Cameroon</option>
+<option value="Canada">Canada</option>
+<option value="Cape Verde">Cape Verde</option>
+<option value="Cayman Islands">Cayman Islands</option>
+<option value="Central African Republic">Central African Republic</option>
+<option value="Chad">Chad</option>
+<option value="Chile">Chile</option>
+<option value="China*">China*</option>
+<option value="Chinese Taipei">Chinese Taipei</option>
+<option value="Christmas Island">Christmas Island</option>
+<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+<option value="Colombia">Colombia</option>
+<option value="Comoros">Comoros</option>
+<option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option>
+<option value="Cook Islands">Cook Islands</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote d&#39;Ivoire">Cote d&#39;Ivoire</option>
+<option value="Crimea">Crimea</option>
+<option value="Croatia">Croatia</option>
+<option value="Cuba">Cuba</option>
+<option value="Curaçao">Curaçao</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Dominica">Dominica</option>
+<option value="Dominican Republic">Dominican Republic</option>
+<option value="Ecuador">Ecuador</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Equatorial Guinea">Equatorial Guinea</option>
+<option value="Eritrea">Eritrea</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+<option value="Faroe Islands">Faroe Islands</option>
+<option value="Fiji">Fiji</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="French Guiana">French Guiana</option>
+<option value="French Polynesia">French Polynesia</option>
+<option value="French Southern Territories">French Southern Territories</option>
+<option value="Gabon">Gabon</option>
+<option value="Gambia">Gambia</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Gibraltar">Gibraltar</option>
+<option value="Greece">Greece</option>
+<option value="Greenland">Greenland</option>
+<option value="Grenada">Grenada</option>
+<option value="Guadeloupe">Guadeloupe</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Guernsey">Guernsey</option>
+<option value="Guinea">Guinea</option>
+<option value="Guinea-Bissau">Guinea-Bissau</option>
+<option value="Guyana">Guyana</option>
+<option value="Haiti">Haiti</option>
+<option value="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="Iceland">Iceland</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Isle of Man">Isle of Man</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Jamaica">Jamaica</option>
+<option value="Japan">Japan</option>
+<option value="Jersey">Jersey</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Kiribati">Kiribati</option>
+<option value="Korea, Democratic People’s Republic of">Korea, Democratic People’s Republic of</option>
+<option value="Korea, Republic of">Korea, Republic of</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Lao People’s Democratic Republic">Lao People’s Democratic Republic</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lesotho">Lesotho</option>
+<option value="Liberia">Liberia</option>
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+<option value="Liechtenstein">Liechtenstein</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Macao">Macao</option>
+<option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option>
+<option value="Madagascar">Madagascar</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mali">Mali</option>
+<option value="Malta">Malta</option>
+<option value="Martinique">Martinique</option>
+<option value="Mauritania">Mauritania</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mayotte">Mayotte</option>
+<option value="Mexico">Mexico</option>
+<option value="Moldova, Republic of">Moldova, Republic of</option>
+<option value="Monaco">Monaco</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Montenegro">Montenegro</option>
+<option value="Montserrat">Montserrat</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibia">Namibia</option>
+<option value="Nauru">Nauru</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="New Caledonia">New Caledonia</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Niger">Niger</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Niue">Niue</option>
+<option value="Norfolk Island">Norfolk Island</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+<option value="Panama">Panama</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Pitcairn">Pitcairn</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Qatar">Qatar</option>
+<option value="Reunion">Reunion</option>
+<option value="Romania">Romania</option>
+<option value="Russian Federation">Russian Federation</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Saint Barthélemy">Saint Barthélemy</option>
+<option value="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+<option value="Saint Lucia">Saint Lucia</option>
+<option value="Saint Martin (French part)">Saint Martin (French part)</option>
+<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+<option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+<option value="Samoa">Samoa</option>
+<option value="San Marino">San Marino</option>
+<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Seychelles">Seychelles</option>
+<option value="Sierra Leone">Sierra Leone</option>
+<option value="Singapore">Singapore</option>
+<option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch part)</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Solomon Islands">Solomon Islands</option>
+<option value="Somalia">Somalia</option>
+<option value="South Africa">South Africa</option>
+<option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+<option value="South Sudan">South Sudan</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sudan">Sudan</option>
+<option value="Suriname">Suriname</option>
+<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+<option value="Swaziland">Swaziland</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+<option value="Thailand">Thailand</option>
+<option value="Timor-Leste">Timor-Leste</option>
+<option value="Togo">Togo</option>
+<option value="Tokelau">Tokelau</option>
+<option value="Tonga">Tonga</option>
+<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+<option value="Tunisia">Tunisia</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+<option value="Tuvalu">Tuvalu</option>
+<option value="Uganda">Uganda</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="Uruguay">Uruguay</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vanuatu">Vanuatu</option>
+<option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Virgin Islands, British">Virgin Islands, British</option>
+<option value="Wallis and Futuna">Wallis and Futuna</option>
+<option value="Western Sahara">Western Sahara</option>
+<option value="Yemen">Yemen</option>
+<option value="Zambia">Zambia</option>
+<option value="Zimbabwe">Zimbabwe</option></select>
+  </div>
+</div>
+
+
+    <div class="input-group">
+        <label for="main_programming_language">
+          Primary development language
+          <sup class="required" title="Required">*</sup>
+</label>        <div class="lang-selector">
+          <select name="main_programming_language" id="main_programming_language" placeholder="Primary development language" tabindex="7" class="required"><option value="">Select a language</option><option class="ruby" value="ruby">Ruby</option>
+<option class="php" value="php">PHP</option>
+<option class="python" value="python">Python</option>
+<option class="node" value="node">Node.js</option>
+<option class="java" value="java">Java</option>
+<option class="clojure" value="clojure">Clojure</option>
+<option class="scala" value="scala">Scala</option>
+<option class="go" value="go">Go</option>
+<option class="other" value="other">I use another language</option>
+<option class="none" value="none">I&#39;m not a developer</option></select>
+        </div>
+    </div>
+
+
+    <div class="input-group captcha">
+      <script type="text/javascript">
+        var captchaCallback = function() {
+          $('textarea#g-recaptcha-response').parents('form').trigger('inputsChanged');
+        };
+        var renderCaptcha = function() {
+          grecaptcha.render('g-recaptcha', {
+            'sitekey' : '6LctQg4UAAAAAFWvn4zhyn7XymfcTN2sl5vZ9JTb',
+            'callback': captchaCallback
+          });
+          $('#g-recaptcha iframe').attr('tabindex', '9');
+        };
+      </script>
+      <div id="g-recaptcha"></div>
+      <script src="https://www.google.com/recaptcha/api.js?onload=renderCaptcha&render=explicit&hl=en" async defer></script>
+    </div>
+
+  <noscript class="noscript">
+  <p>We need you to enable JavaScript for signing up. If this is an issue for you, please let us know at <a href="mailto:feedback@heroku.com">feedback@heroku.com</a></p>
+</noscript>
+
+
+  <div class="input-group">
+    <input type="submit" name="commit" value="Create Free Account" class="btn btn-alt full-width" tabindex="10" data-disable-with="Create Free Account" />
+  </div>
+
+  <p class="privacy tos">
+    Signing up signifies that you have read and agree to the <a tabindex="11" target="_blank" href="https://www.heroku.com/policy/salesforce-heroku-msa">Terms of Service</a> <span class="japan-only" style="display:none">, the <a tabindex="12" target="_blank" href="http://www.salesforce.com/jp/company/personalinfo.jsp">Salesforce Japan Privacy Statement</a></span> and our <a tabindex="13" target="_blank" href="https://www.salesforce.com/company/privacy/">Privacy Policy</a>.
+  </p>
+</form>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+      I18n.defaultLocale = "en";
+      I18n.locale = "en";
+    </script>
+  </body>
+</html>
+4�̫      [?�[@?)p           :https://signup.heroku.com/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Etag: W/"633faa54b39f14edab81932f82ce8d0e"
+Strict-Transport-Security: max-age=31556952; includeSubDomains; preload
+Via: 1.1 spaces-router (7222faa1406d)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: d4247ea3-bc7e-fa28-e821-5cbd8044c024
+X-Runtime: 0.024070
+X-Xss-Protection: 1; mode=block
+Date: Mon, 11 Jun 2018 09:24:12 GMT
+ original-response-headers Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Etag: W/"633faa54b39f14edab81932f82ce8d0e"
+Set-Cookie: language=en; path=/; secure
+Set-Cookie: _signup_session=YmIwRXBIcWpNWkVrU0NLNnhIVDdFVDgrNktnRlo1WHdHU1NsbTRKWVBsZy9LcldzY1dzd2RmNzQxKzlPK09tRW0xTmQ4UFp3b0ROdDQzVWo5aDBVN3NYUlZIWTNVSzdZRGdaT1ZsQ1JVUnVTNjFPcndzU0k1RTN2SiszMW1EeWpJc0tHS0M3dVpYSmZvVG83SFc4K2hTUlBucjVGTWFKenFvSjIySHpZUEUzeDZveEVWZko0TzBvMGJhTStBNER0VmZIMm05akhKK0hjWEY4cGJOZ3h1SE02Tk9WbXNPcXFraXBKRHpTMXRsVEJIdnhGWG5qZVFjK1NIYkphdFlmSE04bDByVDNVcUNSTUp1NDZkMFB3cHlqRnFPZkpFR2Z2S0l0bjVBSXA5cExJOERSU3diWjlwaVNJUUdPYUxFZnE3bTZmKy9CcEhqUm5FQ2NDcjFXQUREOTYwYnNXdUVRR1lxN3ZKOTBESUU0aGpjNzBlS2w3dDJQS1VkNUNtbkVRQUhJQ3Y1MU5aSkN5cGpsT3p5VjdZM0wvM0RvRjdiOHl5enVHUWJydUc2TTVaN3poQWJiYWVKVytXSmkrWGR0U0ovNjRiWDB3UDIrUVZSNnhTTGRDTy9tN0VJSmRBSWdzSGloQmRkTEZ5UUF0a1RTSG5rOVg3Unl5MUF5aTNGNGIxeGRrMTNCN1pNS2RKTHkyb2d4TUJRPT0tLWM2T1J4S2c2b3BrNTM5bDJpUVRvcHc9PQ%3D%3D--3ebce523f19b57a83b35ae407fb046eb2a1bf3c6; path=/; secure; HttpOnly
+Strict-Transport-Security: max-age=31556952; includeSubDomains; preload
+Via: 1.1 spaces-router (7222faa1406d)
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: d4247ea3-bc7e-fa28-e821-5cbd8044c024
+X-Runtime: 0.024070
+X-Xss-Protection: 1; mode=block
+Date: Mon, 11 Jun 2018 09:24:12 GMT
+Transfer-Encoding: chunked
+ uncompressed-len 0 predictor::resource-count 40 predictor::https://signup.heroku.com/assets/application-42aaa5435c4e8ed230ae71b18618c0d0c5f7e928ba1be5326577999bb6bc2ff0.css 1,2,1528709106,12288 predictor::https://signup.heroku.com/assets/application-d48406ffae6c6d22dfbe3e4e9f722c635151cc53449efe834b848906399782dd.js 1,2,1528709106,12288 predictor::https://www.googletagmanager.com/gtm.js?id=GTM-JD26 1,2,1528709106,12288 predictor::https://signup.heroku.com/assets/page-illustration-11400c2a5109317ad7e99571ba2a42bc55522ffa8ea6f9dcdff99737ab6149ac.png 1,2,1528709106,12288 predictor::https://signup.heroku.com/assets/hk-icon/hk-icon-003a2bbb62b0d1c85a920dbbc1b1989e6035f0ada326a3006e5a62fd48c33b26.woff 1,2,1528709106,12288 net-response-time-onstart 272 net-response-time-onstop 512 predictor::https://www.google.com/recaptcha/api.js?onload=renderCaptcha&render=explicit&hl=en 1,2,1528709106,12288 predictor::https://www.google-analytics.com/analytics.js 1,2,1528709106,12288 predictor::https://pixel.mathtag.com/event/img?mt_id=849890&mt_adid=131453&v1=&v2=&v3=&s1=&s2=&s3=&gtmcb=1889701903 1,1,1528709052,8192 predictor::https://www.googleadservices.com/pagead/conversion_async.js 1,2,1528709106,12288 predictor::https://pixel.mathtag.com/event/js?mt_id=622288&mt_adid=131453&v1=&v2=&v3=&s1=&s2=&s3=&skipsync=13 1,2,1528709106,12288 predictor::https://platform.twitter.com/oct.js 1,2,1528709106,12288 predictor::https://bat.bing.com/action/0?ti=5116236&Ver=2 1,2,1528709106,12288 predictor::https://analytics.twitter.com/i/adsct?txn_id=nuf3v&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0 1,2,1528709106,12288 predictor::https://t.co/i/adsct?txn_id=nuf3v&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0 1,2,1528709106,12288 predictor::https://www.facebook.com/tr?id=998836190199866&ev=PageView&noscript=1 1,2,1528709106,12288 predictor::https://www.gstatic.com/recaptcha/api2/v1528135568984/recaptcha__en.js 1,2,1528709106,12288 predictor::https://www.google-analytics.com/plugins/ua/linkid.js 1,2,1528709106,12288 predictor::https://googleads.g.doubleclick.net/pagead/viewthroughconversion/992316833/?random=1528709052747&cv=9&fst=1528709052747&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=376635470&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=5&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&rfmt=3&fmt=4 1,1,1528709052,8192 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=2092283424&t=pageview&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&_u=SCCAAEAj~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-1&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&z=1984754367 1,1,1528709052,8192 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=2092283424&t=pageview&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&_u=SCCACEAjB~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-31&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&z=1732734960 1,1,1528709052,8192 predictor::https://www.google.com/ads/user-lists/992316833/?random=1528709052747&cv=9&fst=1528707600000&num=1&guid=ON&eid=376635470&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=5&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&fmt=3&cdct=2&is_vtc=1&random=1259679957&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y 1,1,1528709052,8192 predictor::https://www.google.co.in/ads/user-lists/992316833/?random=1528709052747&cv=9&fst=1528707600000&num=1&guid=ON&eid=376635470&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=5&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&fmt=3&cdct=2&is_vtc=1&random=1259679957&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y 1,1,1528709052,8192 predictor::https://signup.heroku.com/assets/header-illustration-3a4c23d829b8e7030dc9083774e0758b3728928904767e24784d840b40b98c78.png 1,1,1528709106,4096 predictor::https://signup.heroku.com/assets/logo-horizontal-30c94876b673967b26d0e4a698748b3a157e699845045b3b64fe69706c794bb9.png 1,1,1528709106,4096 predictor::https://www.herokucdn.com/fonts/bentonsans-book.woff 1,1,1528709106,4096 predictor::https://www.herokucdn.com/fonts/bentonsans-regular.woff 1,1,1528709106,4096 predictor::https://www.herokucdn.com/fonts/bentonsans-medium.woff 1,1,1528709106,4096 predictor::https://pixel.mathtag.com/event/img?mt_id=849890&mt_adid=131453&v1=&v2=&v3=&s1=&s2=&s3=&gtmcb=428716751 1,1,1528709106,4096 predictor::https://googleads.g.doubleclick.net/pagead/viewthroughconversion/992316833/?random=1528709106916&cv=9&fst=1528709106916&num=1&guid=ON&resp=GooglemKTybQhCsO&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=6&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&rfmt=3&fmt=4 1,1,1528709106,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=1720707525&t=pageview&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&_u=SCCAAEAj~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-1&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&linkid=login&z=1348341593 1,1,1528709106,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=1720707525&t=pageview&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&_u=SCCACEAjB~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-31&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&linkid=login&z=1591238494 1,1,1528709106,4096 predictor::https://www.google.com/ads/user-lists/992316833/?random=1528709106916&cv=9&fst=1528707600000&num=1&guid=ON&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=6&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&fmt=3&cdct=2&is_vtc=1&random=1551171265&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y 1,1,1528709106,4096 predictor::https://www.google.co.in/ads/user-lists/992316833/?random=1528709106916&cv=9&fst=1528707600000&num=1&guid=ON&u_h=768&u_w=1366&u_ah=741&u_aw=1299&u_cd=24&u_his=6&u_tz=330&u_java=false&u_nplug=0&u_nmime=0&gtm=G64&sendb=1&frm=0&url=https%3A%2F%2Fsignup.heroku.com%2F&ref=https%3A%2F%2Fsignup.heroku.com%2Faccount&tiba=Heroku%20%7C%20Sign%20up&async=1&fmt=3&cdct=2&is_vtc=1&random=1551171265&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y 1,1,1528709106,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=1720707525&t=event&_s=2&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&ec=Signup%20initiated%20form&ea=Started%20form%20fill&_u=SCCACEAjB~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-1&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&linkid=login&z=115039843 1,1,1528709106,4096 predictor::https://www.google-analytics.com/collect?v=1&_v=j68&a=1720707525&t=event&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&ec=Signup%20initiated%20form&ea=Started%20form%20fill&_u=SCCACEAjB~&jid=&gjid=&cid=707346009.1528708276&tid=UA-39697570-31&_gid=982031045.1528708276&gtm=G64JD26&cd1=NotLoggedIn&linkid=login&z=376505542 1,1,1528709106,4096 predictor::https://jambox-p.herokuapp.com/e?url=https%3A//signup.heroku.com/&fp=1528708274194-88ujmf7l1g8ym2oiqumn4&li=undefined&dtls[gtm_enabled]=true&ref=https%3A//signup.heroku.com/account 1,1,1528709106,4096 predictor::https://pi.pardot.com/pd.js 1,1,1528709106,4096 predictor::https://pi.pardot.com/analytics?ver=3&visitor_id=443813022&pi_opt_in=&campaign_id=30300&account_id=37622&title=Heroku%20%7C%20Sign%20up&url=https%3A%2F%2Fsignup.heroku.com%2F&referrer=https%3A%2F%2Fsignup.heroku.com%2Faccount 1,1,1528709106,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j68&a=1720707525&t=event&_s=3&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&ec=Homepage%20Segmentation&ea=Signup%20Segmentation&el=student&_u=SCCACEAjB~&jid=515522256&gjid=2057202744&cid=707346009.1528708276&tid=UA-39697570-1&_gid=982031045.1528708276&_r=1&gtm=G64JD26&cd1=NotLoggedIn&linkid=login&z=1253141898 1,1,1528709106,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j68&a=1720707525&t=event&_s=1&dl=https%3A%2F%2Fsignup.heroku.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=Heroku%20%7C%20Sign%20up&sd=24-bit&sr=1366x768&vp=1287x639&je=0&ec=Homepage%20Segmentation&ea=Signup%20Segmentation&el=student&_u=SCCACEAjB~&jid=73028039&gjid=1982404661&cid=707346009.1528708276&tid=UA-39697570-31&_gid=982031045.1528708276&_r=1&gtm=G64JD26&cd1=NotLoggedIn&linkid=signup&z=287197406 1,1,1528709106,4096   M�

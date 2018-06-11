@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>calculator</title>
+</head>
+
+<body>
+ <div id='calc-contain'>
+
+<form name="calculator">
+<input type= "text" name="ans"/>
+<br>
+<input type= "button" value= " 1 " onclick="calculator.ans.value += '1'"/>
+<input type= "button" value= " 2 " onclick="calculator.ans.value += '2'"/>
+<br>
+<input type= "button" value= " 3 " onclick="calculator.ans.value += '3'"/>
+<input type= "button" value= " 4 " onclick="calculator.ans.value += '4'"/>
+<br>
+<input type= "button" value= " + " onclick="calculator.ans.value += '+'"/>
+<input type= "button" value= " _ " onclick="calculator.ans.value += '-'"/>
+<br>
+<input type= "button" value= " = " onclick="calculator.ans.value += 'eval(calculator.ans.value)'"/>
+</form>
+ <div id='calc-contain'>
+</body>
+
+
+</html>
