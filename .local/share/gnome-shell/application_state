@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="firefox.desktop" open-window-count="1" score="8639" last-seen="1528709528"/>
+    <application id="firefox.desktop" open-window-count="1" score="8723" last-seen="1528710229"/>
     <application id="gedit.desktop" open-window-count="0" score="0" last-seen="0"/>
     <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="25" last-seen="1528696072"/>
     <application id="update-manager.desktop" open-window-count="1" score="0" last-seen="1528709508"/>
@@ -9,7 +9,7 @@
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="555" last-seen="1528690780"/>
     <application id="gnome-terminal.desktop" open-window-count="0" score="0" last-seen="0"/>
     <application id="libreoffice-calc.desktop" open-window-count="0" score="598" last-seen="1528441780"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="809" last-seen="1528709487"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="820" last-seen="1528710222"/>
     <application id="org.gnome.Shell.PortalHelper.desktop" open-window-count="0" score="0" last-seen="1528196113"/>
     <application id="libreoffice-writer.desktop" open-window-count="1" score="885" last-seen="1528709542"/>
   </context>
